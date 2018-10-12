@@ -12,8 +12,11 @@ ICMS Explained, a user guide for the below International Construction Measuremen
 
 <h2>Download the guides:</h2>
 	- ICMS User Guide: Intended for use by RICS and other relevant professionals to apply the standards. The guide provides the background, structure, content and potential use for ICMS, together with various appendices, which provide further and more detailed guidance and worked examples.
+	
 	- Appendix A Mapping to NRM 1: This excel document maps across the NRM 1 cost groups to those which are now presented in ICMS, such that a valid interface can be achieved when comparing historic cost classification data. A PDF version of Appendix A is included in the ICMS User Guide.
+	
 	- Appendix B Worked Examples: A selection of ‘live’ projects where the presentation of the cost classification data is illustrated in a form that aligns with ICMS, and adjusted as necessary to suit local circumstances. Worked Examples include examples of projects from Turkey, Australia, and Malaysia. A PDF version of Appendix B is included in the ICMS User Guide. 
+	
 	- ICMS Linked Excel Templates: This blank template allows practitioners to complete a cost report in accordance with the standard and with the Excel sheet formulae already embedded within.
 
 <h2>ICMS data standard</h2>
