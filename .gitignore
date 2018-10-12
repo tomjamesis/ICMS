@@ -328,3 +328,7 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+/csharp/xAL-2_0.cs
+/csharp/rics-icms-1.0.cs
+/csharp/rics-common-types-2.0.cs
+/csharp/rics-common-enums-2.0.cs
