@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace csharp.Enums
+namespace csharp.Enum
+
 {
     public class KnownCostCode
     {
