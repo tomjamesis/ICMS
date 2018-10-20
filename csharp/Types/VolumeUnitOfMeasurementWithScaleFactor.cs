@@ -2,7 +2,7 @@
 
 namespace csharp.Types
 {
-    public class VolumeUnitOfMeasurementWithScaleFactor
+    public class VolumeUnitOfMeasurementWithScaleFactor : UnitOfMeasurement
     {
         public decimal ScaleFactor { get; set; }
         public Boolean IsPriIsPrimaryUnitMeasurement { get; set; }

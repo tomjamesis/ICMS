@@ -8,21 +8,21 @@ namespace csharp
     {
         public enum KnownIpmsComponentArea
         {
-            A,
-            A1,
-            A2,
-            B,
-            B1,
-            B2,
-            B3,
-            C,
-            D,
-            E,
-            E1,
-            E2,
-            F,
-            G,
-            H
+            A_VerticalPenetration,
+            A1_VerticalCircularPenetrations,
+            A2_VerticalTechnicalPenetrations,
+            B_StructuralElements,
+            B1_ExternalWall,
+            B2_InternalStructuralElements,
+            B3_InternalNonStructuralElements,
+            C_TechnicalServices,
+            D_HygeneAreas,
+            E_CirculationAreas,
+            E1_CirculationAreas,
+            E2_CirculationAreas,
+            F_Amenities,
+            G_WorkspaceLivingSpaceRetailSpace,
+            H_OtherAreas
         }
         public enum KnownIpmsComponentUsage
         {

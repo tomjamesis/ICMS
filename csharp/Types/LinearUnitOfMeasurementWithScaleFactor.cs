@@ -2,7 +2,7 @@
 
 namespace csharp.Types
 {
-    public class LinearUnitOfMeasurementWithScaleFactor
+    public class LinearUnitOfMeasurementWithScaleFactor : UnitOfMeasurement
     {
         public decimal ScaleFactor { get; set; }
         public Boolean IsPriIsPrimaryUnitMeasurement { get; set; }
