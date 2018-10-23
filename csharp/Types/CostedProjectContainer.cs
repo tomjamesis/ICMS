@@ -21,7 +21,7 @@ namespace csharp.Types
         public List<Tunnel> Tunnel { get; set; }
         public List<Treatment> WasteWaterTreatmentWorks { get; set; }
         public List<Treatment> WaterTreatmentWorks { get; set; }
-        public List<Pipeline> Pipeline { get; set; }
+        public List<Treatment> Treatment { get; set; }
         public List<WellAndBorehole> WellAndBorehole { get; set; }
         public List<PowerGeneratingPlant> PowerGeneratingPlant { get; set; }
         public List<ChemicalPlant> ChemicalPlant { get; set; }
@@ -46,7 +46,7 @@ namespace csharp.Types
             Tunnel = new  List<Tunnel>();
             WasteWaterTreatmentWorks = new  List<Treatment>();
             WaterTreatmentWorks = new  List<Treatment>();
-            Pipeline = new  List<Pipeline>();
+            Treatment = new  List<Treatment>();
             WellAndBorehole = new  List<WellAndBorehole>();
             PowerGeneratingPlant = new  List<PowerGeneratingPlant>();
             ChemicalPlant = new  List<ChemicalPlant>();

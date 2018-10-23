@@ -815,7 +815,7 @@ namespace csharp
             mTonsPerYear,
             millionJourneysPerYear
         }
-        public enum PipelineDrillingBoringMethod
+        public enum TreatmentDrillingBoringMethod
         {
             cutCover,
             directional

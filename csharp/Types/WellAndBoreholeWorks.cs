@@ -4,23 +4,23 @@ using System.Text;
 
 namespace csharp.Types
 {
-    public class TreatmentWorks
+    public class WellAndBoreholeWorks
     {
         public List<EnvironmentalGrade> EnvironmentalGrade { get; set; }
-        public List<TreatmentDesignFeatures> DesignFeatures { get; set; }
-        public TreatmentComplexity Complexity { get; set; }
+        public WellAndBoreholeDesignFeatures DesignFeatures { get; set; }
+        public WellAndBoreholeComplexity Complexity { get; set; }
         public SeaLevelHeight MinimumHeightToSeaLevel { get; set; }
         public SeaLevelHeight MaximumHeightToSeaLevel { get; set; }
-        public Dimension Dinemsions { get; set; }
-        public Enums.TreatmentFunction TreatmentFunction { get; set; }
+        public Dimension AverageCorridorWidthBetweenLegalBoundaries { get; set; }
+        public SimpleMeasurement TrackGauge { get; set; }
+        public Enums.KnownWellAndBoreholeFunction WellAndBoreholeFunction { get; set; }
         public Enums.BuildNature Nature { get; set; }
         public Decimal DesignLifeInYears { get; set; }
         public int noOfPipes { get; set; }
 
-        public TreatmentWorks()
+        public WellAndBoreholeWorks()
         {
             EnvironmentalGrade = new List<EnvironmentalGrade>();
-            DesignFeatures = new List<TreatmentDesignFeatures>();
         }
     }
 }
