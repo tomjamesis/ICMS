@@ -6,8 +6,8 @@ namespace csharp.Types
 {
     public class Ipms3Measurement
     {
-        //public KnownFileCategory FileCategory { get; set; }
-        //public KnownIpms3Measurement KnownIpms3Measurement { get; set; }
+        public Enums.KnownFileCategory FileCategory { get; set; }
+        public Enums.KnownIpms3Measurement KnownIpms3Measurement { get; set; }
         public List<String> MeasurementSubType { get; }
 
         public Ipms3Measurement()

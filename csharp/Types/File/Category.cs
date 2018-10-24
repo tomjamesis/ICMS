@@ -6,7 +6,7 @@ namespace csharp.Types.File
 {
     public class Category
     {
-        //public KnownFileCategory FileCategory { get; set; }
+        public Enums.KnownFileCategory FileCategory { get; set; }
 
         public Category()
         { }

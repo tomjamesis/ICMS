@@ -6,6 +6,41 @@ namespace csharp
 {
     public class Enums
     {
+        public String CostCode;
+        public String PricingMethod;
+        public String ProjectDescription;
+        public String ConstructionDateDefinedBy;
+        public String ConstructionToState;
+        public String BuildingFunction;
+        public String LegalStatus;
+        public String BuildingFunctional;
+        public String ModeOfProcurement;
+        public String Topography;
+        public String BuildingStructure;
+        public String WallDesign;
+        public String WorkingMethod;
+        public String RailwayFunction;
+        public String RailwayPosition;
+        public String TrainPowerSystem;
+        public String RailwayControlSystem;
+        public String BridgeTunnelFunction;
+        public String BridgeSupport;
+        public String Material;
+        public String BridgeObstacleCrossed;
+        public String TunnellingMethod;
+        public String CrossSectionalShape;
+        //public String PlantTechnology;
+        //public String TreatmentFunction;
+        public String PipelineMaterial;
+        public String WellAndBoreholeFunction;
+        public String PowerGeneratingPlantCoolant;
+        public String PowerGeneratingPlantFunction;
+        public String PowerGeneratingCoolingSystem;
+        public String ReactorMaterial;
+        public String ChemicalPlantProcess;
+        public String RefineryFunction;
+        public String ProjectClassificationStandardName;
+
         public enum KnownIpmsComponentArea
         {
             A_VerticalPenetration,
@@ -314,7 +349,7 @@ namespace csharp
             Photograph,
             Video
         }
-        public enum VerificationType
+        public enum Verification
         {
             MeasuredOnSite,
             ExistingVerifiedOnSite
@@ -583,7 +618,7 @@ namespace csharp
             roadAndMotorway,
             railway
         }
-        public enum BridgeMobiliyt
+        public enum BridgeMobility
         {
             _fixed,
             moved,
@@ -815,7 +850,7 @@ namespace csharp
             mTonsPerYear,
             millionJourneysPerYear
         }
-        public enum TreatmentDrillingBoringMethod
+        public enum PipelineDrillingBoringMethod
         {
             cutCover,
             directional
@@ -871,6 +906,10 @@ namespace csharp
         {
             ISO12006_2,
             ISICRev4
+        }
+
+        public class PlantTechnology
+        {
         }
     }
 }

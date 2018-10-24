@@ -4,7 +4,7 @@ using System.Text;
 
 namespace csharp.Types
 {
-    class StoreyHeightMeasurement : SimpleMeasurement
+    public class StoreyHeightMeasurement : SimpleMeasurement
     {
         public String floorId { get; set; }
 

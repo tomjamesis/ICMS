@@ -6,7 +6,7 @@ namespace csharp.Types
 {
     public class Verification
     {
-        //public VerificationType Verification { get; set; }
+        public Enums.Verification VerificationType { get; set; }
 
         public Verification()
         { }

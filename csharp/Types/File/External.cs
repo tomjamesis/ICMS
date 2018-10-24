@@ -6,7 +6,7 @@ namespace csharp.Types.File
 {
     public class External
     {
-        //public FileCategory Category { get; set; }
+        public Enums.KnownFileCategory Category { get; set; }
         public String href { get; set; }
         public List<object> Any { get; set; }
 

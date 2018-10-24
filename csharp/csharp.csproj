@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="rics-icms-1.0.cs" />
+  </ItemGroup>
+
 </Project>

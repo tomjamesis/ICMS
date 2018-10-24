@@ -8,14 +8,16 @@ namespace csharp.Types
     {
         public String ConflictsOfInterestNotes { get; set; }
         public string ConfidentialityNotes { get; set; }
-        //public StatementOfProfessionalism StatementOfProfessionalism { get; set; }
+        public List<object> StatementOfProfessionalism { get; set; }
         public string Departures { get; set; }
         public string TermsOfUse { get; set; }
         public string CertifiedBy { get; set; }
         public string DigitalSignature { get; set; }
-        //public AnnotatedDocumentType SupportingDocumentation { get; set; }
+        public AnnotatedDocument SupportingDocumentation { get; set; }
 
         public Compliance()
-        { }
+        {
+            StatementOfProfessionalism = new List<object>();
+        }
     }
 }

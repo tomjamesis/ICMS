@@ -12,7 +12,7 @@ namespace csharp.Types
         public SeaLevelHeight MinimumHeightToSeaLevel { get; set; }
         public SeaLevelHeight MaximumHeightToSeaLevel { get; set; }
         public Dimension Dinemsions { get; set; }
-        public Enums.TreatmentFunction TreatmentFunction { get; set; }
+        public TreatmentFunction TreatmentFunction { get; set; }
         public Enums.BuildNature Nature { get; set; }
         public Decimal DesignLifeInYears { get; set; }
         public int noOfPipes { get; set; }

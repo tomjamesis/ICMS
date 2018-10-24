@@ -8,11 +8,15 @@ namespace csharp.Types
     public class IpmsMeasurement
     {
         public decimal MeasurementValue { get; set; }
-        //public LimitedUseMeasurementType LimitedUseMeasuredAreaSummary { get; set; }
-        //public IncludedMeasurementType IncludedMeasuredAreaSummary { get; set; }
-        //public ExcludedMeasurementType ExcludedMeasuredAreaSummary { get; set; }
+        public List<LimitedUseMeasurement> LimitedUseMeasuredAreaSummary { get; set; }
+        public List<IncludedMeasurement> IncludedMeasuredAreaSummary { get; set; }
+        public List<ExcludedMeasurement> ExcludedMeasuredAreaSummary { get; set; }
 
         public IpmsMeasurement()
-        { }
+        {
+            LimitedUseMeasuredAreaSummary = new List<LimitedUseMeasurement>();
+            IncludedMeasuredAreaSummary = new List<IncludedMeasurement>();
+            ExcludedMeasuredAreaSummary = new List<ExcludedMeasurement>();
+        }
     }
 }

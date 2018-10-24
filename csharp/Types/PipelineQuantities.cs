@@ -10,7 +10,6 @@ namespace csharp.Types
         public List<SimpleMeasurement> LengthFromServicingInletsToOutlets { get; set; }
         public List<CapacityFunctionalUnits> FunctionalUnits { get; set; }
 
-
         public PipelineQuantities()
         {
             LengthOfPipes = new List<SimpleMeasurement>();

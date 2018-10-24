@@ -8,7 +8,7 @@ namespace csharp.Types
     {
         public List<EnvironmentalGrade> EnvironmentalGrade { get; set; }
         public List<RailwayDesignFeatures> DesignFeatures { get; set; }
-        public RailComplexity Complexity { get; set; }
+        public RailwayComplexity Complexity { get; set; }
         public SeaLevelHeight MinimumHeightToSeaLevel { get; set; }
         public SeaLevelHeight MaximumHeightToSeaLevel { get; set; }
         public Dimension AverageCorridorWidthBetweenLegalBoundaries { get; set; }
@@ -25,7 +25,7 @@ namespace csharp.Types
         public RailwayWorks()
         {
             EnvironmentalGrade = new List<EnvironmentalGrade>();
-            DesignFeatures = new List<RailDesignFeatures>();
+            DesignFeatures = new List<RailwayDesignFeatures>();
         }
     }
 }

@@ -4,10 +4,10 @@ using System.Text;
 
 namespace csharp.Types.File
 {
-    public class Internal
+    public class Internal 
     {
-        //public FileCategory Category { get; set; }
-        //public KnownFileExtensions Format { get; set; }
+        public Enums.KnownFileCategory Category { get; set; }
+        public Enums.KnownFileExtension Format { get; set; }
         public List<object> Any { get; set; }
 
         public Internal()

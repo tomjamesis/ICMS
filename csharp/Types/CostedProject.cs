@@ -6,9 +6,14 @@ namespace csharp.Types
 {
     public class CostedProject : Project
     {
-        public Enums.KnownProjectClassificationStandardName ClassificationStandard { get; set; }
+        public CostedProjectCode ProjectCode { get; set; }
+        public List<CostedProjectContainer> SubProject { get; set; }
+        public List<CostCategory> Costs { get; set; }
 
         public CostedProject()
-        { }
+        {
+            SubProject = new List<CostedProjectContainer>();
+            Costs = new List<CostCategory>();
+        }
     }
 }
