@@ -13,10 +13,10 @@ namespace csharp
         public String ConstructionToState;
         public String BuildingFunction;
         public String LegalStatus;
-        public String BuildingFunctional;
+        public String RoadAndMotorwayFunctional;
         public String ModeOfProcurement;
         public String Topography;
-        public String BuildingStructure;
+        public String RoadAndMotorwayStructure;
         public String WallDesign;
         public String WorkingMethod;
         public String RailwayFunction;
@@ -290,7 +290,7 @@ namespace csharp
             ExternalBalconies,
             CoveredGalleries,
             AccessibleRooftopTerraces,
-            PatiosAndDecksAtGroundLevelNotPartOfBuildingStructure,
+            PatiosAndDecksAtGroundLevelNotPartOfRoadAndMotorwayStructure,
             ExternalVehicleParking,
             EquipmentYards,
             CoolingEquipment,
@@ -299,7 +299,7 @@ namespace csharp
             OpenLightWells,
             UpperLevelVoidsOfAnAntrium,
             StandardFacilities,
-            OpenExternalStairwaysNotPartOfBuildingStructure,
+            OpenExternalStairwaysNotPartOfRoadAndMotorwayStructure,
             SharedCirculationAreas,
             EnclosedWalkwaysOrPassages,
             Verandas,
@@ -371,7 +371,7 @@ namespace csharp
             engineerProcureConstruct,
             target
         }
-        public enum KnownBuildingFunctional
+        public enum KnownRoadAndMotorwayFunctional
         {
             noOfOccupants,
             noOfBedrooms,
@@ -636,7 +636,7 @@ namespace csharp
             acheived,
             none
         }
-        public enum KnownBuildingStructure
+        public enum KnownRoadAndMotorwayStructure
         {
             timber,
             concrete,

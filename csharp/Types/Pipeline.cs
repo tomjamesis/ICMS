@@ -6,6 +6,8 @@ namespace csharp.Types
 {
     public class Pipeline : CostedProject
     {
+        public PipelineWorks Works { get; set; }
+        public PipelineQuantities Quantities { get; set; }
 
         public Pipeline()
         { }

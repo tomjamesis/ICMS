@@ -6,11 +6,11 @@ namespace csharp.Types
 {
     public class Floors
     {
-        public List<Floor> lFloors { get; set; }
+        public List<Floor> FloorLevel { get; set; }
 
         public Floors()
         {
-            lFloors = new List<Floor>();
+            FloorLevel = new List<Floor>();
         }
     }
 }

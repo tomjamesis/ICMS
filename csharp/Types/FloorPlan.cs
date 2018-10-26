@@ -4,13 +4,15 @@ using System.Text;
 
 namespace csharp.Types
 {
-    public class FloorPlan
+    public class FloorPlan : AnnotatedDocument
     {
-        public List<AnnotatedDocument> Content { get; set; }
+        //public List<String> Scale { get; set; } //Already exists within AnnotatedDocument object
+        public List<String> CreatedBy { get; set; }
 
         public FloorPlan()
         {
-            Content = new List<AnnotatedDocument>();
+            //Scale = new List<string>();
+            CreatedBy = new List<string>();
         }
     }
 }

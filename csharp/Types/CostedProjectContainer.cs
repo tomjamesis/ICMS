@@ -6,9 +6,10 @@ namespace csharp.Types
 {
     public class CostedProjectContainer
     {
-        public string Title { get; set; }
-        public List<string> Description { get; set; }
-        public CostedProjectContainerChoice Choice { get; set; }
+        public String Title { get; set; }
+        public List<String> Description { get; set; }
+        public AddressDetails Location { get; set; }
+        public LinearCivilEngineeringWorks LinearCivilEngineeringWorks { get; set; }
         public List<ConstructionPeriod> ConstructionPeriod { get; set; }
         public List<Milestone> KeyMilestones { get; set; }
         public List<SiteStatus> Site { get; set; }
@@ -30,37 +31,30 @@ namespace csharp.Types
         public Enums.KnownProjectDescription ProjectDescription { get; set; }
         public Enums.CostReportStatus CostReportStatus { get; set; }
         public Enums.ReportPriceBasis ReportPriceBasis { get; set; }
+        public Enums.ProjectStatus projectStatus { get; set; }
 
         public CostedProjectContainer()
         {
-            Description = new  List<string> ();
-            ConstructionPeriod = new  List<ConstructionPeriod>();
-            KeyMilestones = new  List<Milestone>();
-            Site = new  List<SiteStatus>();
-            Procurement = new  List<Procurement>();
-            CommonCosts = new  List<CostedCategory>();
-            Building = new  List<Building>();
-            RoadAndMotorway = new  List<RoadAndMotorway>();
-            Railway = new  List<Railway>();
-            Bridge = new  List<Bridge>();
-            Tunnel = new  List<Tunnel>();
-            WasteWaterTreatmentWorks = new  List<Treatment>();
-            WaterTreatmentWorks = new  List<Treatment>();
-            Treatment = new  List<Treatment>();
-            WellAndBorehole = new  List<WellAndBorehole>();
-            PowerGeneratingPlant = new  List<PowerGeneratingPlant>();
-            ChemicalPlant = new  List<ChemicalPlant>();
-            Refinery = new  List<Refinery>();
-            OtherProjectType = new  List<GenericProject>();
+            Description = new List<String>();
+            ConstructionPeriod = new List<ConstructionPeriod>();
+            KeyMilestones = new List<Milestone>();
+            Site = new List<SiteStatus>();
+            Procurement = new List<Procurement>();
+            CommonCosts = new List<CostedCategory>();
+            Building = new List<Building>();
+            RoadAndMotorway = new List<RoadAndMotorway>();
+            Railway = new List<Railway>();
+            Bridge = new List<Bridge>();
+            Tunnel = new List<Tunnel>();
+            WasteWaterTreatmentWorks = new List<Treatment>();
+            WaterTreatmentWorks = new List<Treatment>();
+            Treatment = new List<Treatment>();
+            WellAndBorehole = new List<WellAndBorehole>();
+            PowerGeneratingPlant = new List<PowerGeneratingPlant>();
+            ChemicalPlant = new List<ChemicalPlant>();
+            Refinery = new List<Refinery>();
+            OtherProjectType = new List<GenericProject>();
 
         }
-    }
-    public class CostedProjectContainerChoice
-    {
-        public AddressDetails Location { get; set; }
-        public LinearCivilEngineeringWorks LinearCivilEngineeringWorks { get; set; }
-
-        public CostedProjectContainerChoice()
-        { }
     }
 }

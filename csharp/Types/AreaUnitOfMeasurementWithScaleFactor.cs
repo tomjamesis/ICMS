@@ -4,9 +4,9 @@ namespace csharp.Types
 {
     public class AreaUnitOfMeasurementWithScaleFactor : UnitOfMeasurement
     {
-        public decimal ScaleFactor { get; set; }
-        public Boolean IsPriIsPrimaryUnitMeasurement { get; set; }
-        public String MeasurementDescription { get; set; }
+        public Decimal scaleFactor { get; set; }
+        public Boolean isPrimaryUnitMeasurement { get; set; }
+        public String measurementDescription { get; set; }
 
         public AreaUnitOfMeasurementWithScaleFactor()
         { }

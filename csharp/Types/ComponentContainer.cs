@@ -6,9 +6,11 @@ namespace csharp.Types
 {
     public class ComponentContainer
     {
-        public ComponentMeasurement ComponentMeasurement { get; set; }
+        public List<ComponentMeasurement> ComponentMeasurement { get; set; }
 
         public ComponentContainer()
-        { }
+        {
+            ComponentMeasurement = new List<ComponentMeasurement>();
+        }
     }
 }

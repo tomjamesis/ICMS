@@ -6,7 +6,7 @@ namespace csharp.Types
 {
     public class Milestone
     {
-        public string Description { get; set; }
+        public String Description { get; set; }
         public DateTime Date { get; set; }
 
         public Milestone()

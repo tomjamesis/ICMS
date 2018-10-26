@@ -7,10 +7,10 @@ namespace csharp.Types
     public class AnnotatedDocument
     {
         public List<String> Description { get; set; }
-        //public FileType File { get; set; }
+        public File.External File { get; set; }
         public DateTime Created { get; set; }
         public List<String> Scale { get; set; }
-        public MeasurementProperty MeasurementPropertyReference { get; set; }
+        public MeasuredProperty MeasurementPropertyReference { get; set; }
 
         public AnnotatedDocument()
         {

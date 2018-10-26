@@ -6,7 +6,7 @@ namespace csharp.Types
     {
         public decimal MeasurementValue { get; set; }
         public AlternativeMeasurement AlternativeMeasurement { get; set; }
-        //public ExcludedAreaCategory ExcludedAreaCategory { get; set; }
+        public SeparateAreaCategory ExcludedAreaCategory { get; set; }
         public String Description { get; set; }
 
         public ExcludedMeasurement()

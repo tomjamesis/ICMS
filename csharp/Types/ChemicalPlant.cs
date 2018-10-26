@@ -6,6 +6,8 @@ namespace csharp.Types
 {
     public class ChemicalPlant : CostedProject
     {
+        public ChemicalPlantWorks Works { get; set; }
+        public ChemicalPlantQuantities Quantities { get; set; }
 
         public ChemicalPlant()
         { }
